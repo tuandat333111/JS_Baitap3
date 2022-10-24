@@ -115,7 +115,19 @@ document.getElementById("btnArrange").onclick=function(){
     resultCount+="<p> Số con số lẻ: "+ oddCount+ "</p>";
     document.getElementById("resultCount").innerHTML=resultCount;
 }
-
+/**
+ * Bài tập 4:
+ * Mô hình 3 khối:
+ * + Đầu vào:
+ * Nhập 3 cạnh của tam giác: a,b,c
+ * + Xử lí:
+ * Kiểm tra 3 cạnh có tạo thành tam giác không? Nếu tổng 2 cạnh bằng cạnh còn lại thì 3 cạnh ko tạo thành tam giác
+ * Kiểm tra 3 cạnh đó có cặp cạnh nào bằng nhau không? Nếu có và ko có cạnh nào bằng tổng 2 cạnh còn lại thì nó tạo thành tam giác cân
+ * Kiểm tra 3 cạnh xem cả 3 cạnh có bằng nhau không? Nếu có thì nó sẽ tạo thành tam giác đều.
+ * Kiểm tra bình phương 1 cạnh có bằng tổng bình phương 2 cạnh còn lại không? Nếu có thì nó tạo thành tạm giác vuông.
+ * + Đầu ra:
+ * Xuất kết quả kết luận có tạo thành tam giác hay không và đó là tam giác gì.
+ */
 document.getElementById("btnTriangle").onclick=function(){
     var a=document.getElementById("number_7").value*1;
     var b=document.getElementById("number_8").value*1;
